@@ -13,6 +13,18 @@
     .row {padding: 0 2%;}
     }
 
+    .btn-app1 img {
+        margin-right: 0;
+        margin-left: 15%;
+        align-content: center;
+    }
+
+    .btn-app2 img {
+        margin-right: 0;
+        margin-left: 5%;
+        align-content: center;
+    }
+
 
 /*  Small tablet to big tablet: 768px to 1023px */
 @media only screen and (max-width: 1023px) {
@@ -24,10 +36,11 @@
     margin-left: 10%;
     }
     .steps-box {margin-top: 10px;}
+    .steps-box:first-child {text-align: center;}
     .steps-box:last-child {margin-top: 10px;}
-    .works-steps {margin-bottom: 40px;}
+    .works-step {margin-bottom: 40px;}
     .works-step:last-of-type {margin-bottom: 60px;}
-    
+    1
     .app-screen {width: 50%;}
     
     .icon-small {
@@ -46,11 +59,23 @@
     .row,
     .hero-text-box {padding: 0 4%;}
     
+    
     .col {width: 100%;}
     
     .main-nav {display: none;}
     }  
 
+    .btn-app1 img {
+        margin-right: 0;
+        margin-left: 12%;
+        align-content: center;
+    }
+
+    .btn-app2 img {
+        margin-right: 0;
+        margin-left: 4%;
+        align-content: center;
+    }
 /*  Small Phones to small tablet: 481px to 767px */
 
 @media only screen and (max-width: 767px) {
@@ -59,6 +84,7 @@
     
     .row,
     .hero-text-box {padding: 0 4%;}
+    
     
     .col {
         width: 100%;
@@ -75,7 +101,7 @@
 
     .app-screen {width: 40%;}
     .steps-box:first-child {text-align: center;}
- 
+    .btn-app img {font-size: 50%;}
     .works-step div {
         height: 40px;
         width: 40px;
@@ -84,10 +110,30 @@
         font-size: 120%;
     }   
 
-    .works-step {margin-bottom: 20px;}
+    .works-step {margin-bottom: 30px;}
     .works-step:last-of-type {margin-bottom: 20px;}
 
+        .btn-app1 img {
+        margin-right: 0;
+        margin-left: 8%;
+        align-content: center;
+    }
+
+    .btn-app2 img {
+        margin-right: 0;
+        margin-left: 2%;
+        align-content: center;
+    }
     
+    .btn-full {
+        margin-right: 0;
+        margin-left: 5%;
+    }
+
+    .btn-ghost {
+        margin-right: 0;
+        margin-left: 2%;
+    }
 
 /*  Small Phones: 0 to 480px */
 @media only screen and (max-width: 480px) {

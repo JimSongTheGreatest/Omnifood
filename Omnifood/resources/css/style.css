@@ -340,16 +340,28 @@ header {
     margin-right: 25px;
 }
 
-.btn-app:link,
-.btn-app:visited {
+.btn-app1:link,
+.btn-app1:visited {
     border: 0;
 }
 
-.btn-app img {
+.btn-app1 img {
     height: 50px;
     width: auto;
     margin-right: 10px;
 }
+
+.btn-app2:link,
+.btn-app2:visited {
+    border: 0;
+}
+
+.btn-app2 img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
 
 /* ----------------------- */
 /* Cities */
